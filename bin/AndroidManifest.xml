@@ -23,15 +23,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login"
-            android:windowSoftInputMode="adjustResize|stateVisible" >
+            android:name=".Login_Activity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".UserRegistration"
+            android:label="@string/title_activity_user_registration" >
+        </activity>
+        <activity
+            android:name=".UserProfile"
+            android:label="@string/title_activity_user_profile" >
         </activity>
     </application>
-
-    <!-- To auto-complete the email text field in the login form with the user's emails -->
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.READ_PROFILE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
 </manifest>

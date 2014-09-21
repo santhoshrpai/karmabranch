@@ -7,5 +7,6 @@
     <string name="Password">password</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_user_registration">User Registration</string>
+    <string name="title_activity_user_profile">User Profile</string>
 
 </resources>
