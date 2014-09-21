@@ -54,7 +54,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
-        android:id="@+id/button_login"
+        android:id="@+id/button_login_login_page"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
@@ -66,8 +66,8 @@
         android:id="@+id/button_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button_login"
-        android:layout_alignBottom="@+id/button_login"
+        android:layout_alignBaseline="@+id/button_login_login_page"
+        android:layout_alignBottom="@+id/button_login_login_page"
         android:layout_alignRight="@+id/textView2"
         android:text="REGISTER" />
 

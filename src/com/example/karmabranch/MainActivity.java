@@ -19,14 +19,14 @@ public class MainActivity extends Activity {
 		Button button_5min = (Button) findViewById(R.id.button_5min);
 		Button button_10min = (Button) findViewById(R.id.button_10min);
 		Button button_1hr = (Button) findViewById(R.id.button_1hr);
-		Button button_login = (Button) findViewById(R.id.button_login);
+		Button button_login = (Button) findViewById(R.id.button_login_login_page);
 		Button button_register = (Button) findViewById(R.id.button_register);
 
 		button_5min.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
-				/*Intent i=new Intent(MainActivity.this,LoginActivity.class);
+				/*Intent i=new Intent(MainActivity.this,Login_Activity.class);
 				startActivity(i);*/
 			}
 		});
@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				/*Intent i=new Intent(MainActivity.this,LoginActivity.class);
+				/*Intent i=new Intent(MainActivity.this,Login_Activity.class);
 				startActivity(i);*/
 			}
 		});
@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				/*Intent i=new Intent(MainActivity.this,LoginActivity.class);
+				/*Intent i=new Intent(MainActivity.this,Login_Activity.class);
 				startActivity(i);*/
 			}
 		});
@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				Intent i=new Intent(MainActivity.this,LoginActivity.class);
+				Intent i=new Intent(MainActivity.this,Login_Activity.class);
 				startActivity(i);
 			}
 		});
@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				/*Intent i=new Intent(MainActivity.this,LoginActivity.class);
+				/*Intent i=new Intent(MainActivity.this,Login_Activity.class);
 				startActivity(i);*/
 			}
 		});
