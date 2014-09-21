@@ -58,8 +58,8 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				/*Intent i=new Intent(MainActivity.this,Login_Activity.class);
-				startActivity(i);*/
+				Intent i=new Intent(MainActivity.this,UserRegistration.class);
+				startActivity(i);
 			}
 		});
 
