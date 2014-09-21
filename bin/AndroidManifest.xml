@@ -34,6 +34,18 @@
             android:name=".UserProfile"
             android:label="@string/title_activity_user_profile" >
         </activity>
+        <activity
+            android:name=".FavorDescription"
+            android:label="@string/title_activity_favor_description" >
+        </activity>
+        <activity
+            android:name=".UserReview"
+            android:label="@string/title_activity_user_review" >
+        </activity>
+        <activity
+            android:name=".FavorList"
+            android:label="@string/title_activity_favor_list" >
+        </activity>
     </application>
 
 </manifest>

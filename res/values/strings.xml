@@ -8,5 +8,8 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_user_registration">User Registration</string>
     <string name="title_activity_user_profile">User Profile</string>
+    <string name="title_activity_favor_description">Favor Description</string>
+    <string name="title_activity_user_review">User Review</string>
+    <string name="title_activity_favor_list">List of active favors</string>
 
 </resources>
