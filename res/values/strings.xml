@@ -11,5 +11,6 @@
     <string name="title_activity_favor_description">Favor Description</string>
     <string name="title_activity_user_review">User Review</string>
     <string name="title_activity_favor_list">List of active favors</string>
+    <string name="title_activity_main_activity_1">MainActivity_1</string>
 
 </resources>

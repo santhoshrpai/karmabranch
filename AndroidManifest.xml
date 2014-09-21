@@ -46,6 +46,10 @@
             android:name=".FavorList"
             android:label="@string/title_activity_favor_list" >
         </activity>
+        <activity
+            android:name=".MainActivity_1"
+            android:label="@string/title_activity_main_activity_1" >
+        </activity>
     </application>
 
 </manifest>

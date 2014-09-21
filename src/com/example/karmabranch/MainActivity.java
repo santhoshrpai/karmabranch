@@ -26,24 +26,24 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				/*Intent i=new Intent(MainActivity.this,Login_Activity.class);
-				startActivity(i);*/
+				Intent i=new Intent(MainActivity.this,FavorList.class);
+				startActivity(i);
 			}
 		});
 		button_10min.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
-				/*Intent i=new Intent(MainActivity.this,Login_Activity.class);
-				startActivity(i);*/
+				Intent i=new Intent(MainActivity.this,FavorList.class);
+				startActivity(i);
 			}
 		});
 		button_1hr.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
-				/*Intent i=new Intent(MainActivity.this,Login_Activity.class);
-				startActivity(i);*/
+				Intent i=new Intent(MainActivity.this,FavorList.class);
+				startActivity(i);
 			}
 		});
 		button_login.setOnClickListener(new OnClickListener() {

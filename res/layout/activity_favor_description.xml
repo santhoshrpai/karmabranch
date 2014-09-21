@@ -6,19 +6,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/image2"
+    android:background="@drawable/background2"
     tools:context="com.example.karmabranch.FavorDescription" >
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="64dp"
-        android:text="Title"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/textView2"
@@ -36,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView2"
         android:layout_toRightOf="@+id/textView1"
-        android:text="Firstname Lastname"
+        android:text="Iggy Pop"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#000000" />
 
@@ -48,17 +37,6 @@
         android:layout_below="@+id/textView2"
         android:layout_marginTop="22dp"
         android:text="Expected time :"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#000000" />
-
-    <TextView
-        android:id="@+id/TextView02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/TextView01"
-        android:layout_alignBottom="@+id/TextView01"
-        android:layout_toRightOf="@+id/TextView01"
-        android:text="Time in minutes"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#000000" />
 
@@ -80,7 +58,7 @@
         android:layout_alignBaseline="@+id/TextView03"
         android:layout_alignBottom="@+id/TextView03"
         android:layout_alignLeft="@+id/TextView02"
-        android:text="Expiry DateTime"
+        android:text="24th September"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#000000" />
 
@@ -102,7 +80,7 @@
         android:layout_alignBaseline="@+id/TextView05"
         android:layout_alignBottom="@+id/TextView05"
         android:layout_alignLeft="@+id/TextView04"
-        android:text="Location "
+        android:text="ASU "
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#000000" />
 
@@ -118,14 +96,13 @@
         android:textColor="#000000" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/TextView07"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView4"
-        android:layout_marginTop="22dp"
-        android:layout_toLeftOf="@+id/textView3"
-        android:hint="#000000"
-        android:text="Describe the favor"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/TextView06"
+        android:text="I need to get to LA by 24th September ! Help needed "
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#000000" />
 
@@ -133,17 +110,40 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/textView3"
-        android:layout_marginBottom="39dp"
+        android:layout_below="@+id/TextView07"
+        android:layout_marginTop="48dp"
+        android:layout_toRightOf="@+id/textView3"
         android:text=" Back  " />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="24dp"
+        android:text="Favor Details"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
         android:layout_alignBottom="@+id/button1"
-        android:layout_alignRight="@+id/textView5"
+        android:layout_alignLeft="@+id/textView4"
         android:text="Accept" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView03"
+        android:layout_alignLeft="@+id/textView3"
+        android:text="6 HRS"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
 
 </RelativeLayout>
